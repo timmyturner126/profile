@@ -1,0 +1,96 @@
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+body {
+  background-color: #746776;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  position: relative;
+}
+p {
+  color: #594981;
+  text-align: center;
+  font-weight: 500;
+  line-height: 0.6;
+}
+h1 {
+  color: #594981;
+  line-height: 2;
+  font-weight: bold;
+  text-align: center;
+}
+h2 {
+  color: #594981;
+  line-height: 2;
+  text-align: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 18px;
+}
+#button{
+  background-color: #594981;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 10px;
+  box-shadow: 3px 2.5px #291c305c;
+  transition: background-color 0.3s ease;
+  margin: 0 auto;
+  width: 50%;
+  display: block
+
+}
+#button:hover {
+  background-color: #402c4a;
+}
+
+#social{
+  margin: auto;
+  width: 50%;
+  display: block
+}
+.container{
+  width: 700px;
+  margin: 0 auto;
+}
+.card1{
+  background-color: #E4E1E8;
+  padding: 40px;
+  box-shadow: 6px 10px 20px #453c48bf;
+  border-radius: 15px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.card2{
+  background-color: #E4E1E8;
+  padding: 40px;
+  box-shadow: 6px 10px 20px #453c48bf;
+  border-radius: 15px;
+  margin: 20px 0px;
+  text-align: center;
+}
+#social{
+  display: flex;
+}
+.linkedin-icon{
+  width: fit-container;
+  padding: 10px;
+}
+.linkedin-icon:hover {
+  background-color: #38303B;
+}
+.insta-icon:hover {
+  background-color: #38303B;
+}
+.insta-icon{
+  color: #453C48;
+  width: fit-container;
+  padding: 10px;
+}
